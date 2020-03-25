@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-1964517619296735807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 543ed1946d26146d59a35072bef19b50, type: 3}
+  m_Name: 77lm3a0o
+  m_EditorClassIdentifier: 
+  uniqueID: c4691723691540848301b9bbffa3144a
+  attribute:
+    uniqueName: Health
+    shortName: HP
+    title:
+      content: Health
+      postProcess: 0
+      translationID: 0
+    description:
+      content: 
+      postProcess: 0
+      translationID: 0
+    icon: {fileID: 0}
+    color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    stat: {fileID: 8343243504808405378, guid: 32d27112dbc6ce5498bcbe0792b7c34a, type: 2}
+    percent: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ac1e52345c5a4a8489aff2c0a41bacb, type: 3}
+  m_Name: AttributesAsset
+  m_EditorClassIdentifier: 
+  attributes:
+  - {fileID: -1964517619296735807}
+  - {fileID: 1361165029786629563}
+--- !u!114 &1361165029786629563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 543ed1946d26146d59a35072bef19b50, type: 3}
+  m_Name: q0i3al95
+  m_EditorClassIdentifier: 
+  uniqueID: 8f635d80ebc24557acc748c2f6fcbbbd
+  attribute:
+    uniqueName: Damage
+    shortName: Dmg
+    title:
+      content: Damage
+      postProcess: 0
+      translationID: 0
+    description:
+      content: 
+      postProcess: 0
+      translationID: 0
+    icon: {fileID: 0}
+    color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    stat: {fileID: 9034179996447110364, guid: 32d27112dbc6ce5498bcbe0792b7c34a, type: 2}
+    percent: 1

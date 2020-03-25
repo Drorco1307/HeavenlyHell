@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b3929c93f8d6424c87244a3a5d99e94, type: 3}
+  m_Name: StatsAsset
+  m_EditorClassIdentifier: 
+  stats:
+  - {fileID: 8343243504808405378}
+  - {fileID: 9034179996447110364}
+--- !u!114 &8343243504808405378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0c8dd195211246108375b2b5fb580d5, type: 3}
+  m_Name: fp1hiag5
+  m_EditorClassIdentifier: 
+  uniqueID: 1adac8763b784b5fbdadee14b41d43a8
+  stat:
+    uniqueName: Vitality
+    shortName: Vit
+    title:
+      content: Vitality
+      postProcess: 0
+      translationID: 0
+    description:
+      content: 
+      postProcess: 0
+      translationID: 0
+    icon: {fileID: 0}
+    color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    baseValue: 10
+    formula: {fileID: 0}
+  isHidden: 0
+--- !u!114 &9034179996447110364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0c8dd195211246108375b2b5fb580d5, type: 3}
+  m_Name: 311ck9m9
+  m_EditorClassIdentifier: 
+  uniqueID: 4c00ba260ca74293a8182887c4302062
+  stat:
+    uniqueName: Strength
+    shortName: Str
+    title:
+      content: Strength
+      postProcess: 0
+      translationID: 0
+    description:
+      content: 
+      postProcess: 0
+      translationID: 0
+    icon: {fileID: 0}
+    color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    baseValue: 1
+    formula: {fileID: 0}
+  isHidden: 0
