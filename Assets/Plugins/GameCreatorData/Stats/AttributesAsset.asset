@@ -1,5 +1,33 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5624068367804203620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 543ed1946d26146d59a35072bef19b50, type: 3}
+  m_Name: dowwfwlf
+  m_EditorClassIdentifier: 
+  uniqueID: 105baf496f8249d18223440556b89f0e
+  attribute:
+    uniqueName: Sweatness
+    shortName: SWT
+    title:
+      content: 
+      postProcess: 0
+      translationID: 0
+    description:
+      content: 
+      postProcess: 0
+      translationID: 0
+    icon: {fileID: 0}
+    color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    stat: {fileID: -2260853214428460798, guid: 32d27112dbc6ce5498bcbe0792b7c34a, type: 2}
+    percent: 1
 --- !u!114 &-1964517619296735807
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43,6 +71,7 @@ MonoBehaviour:
   attributes:
   - {fileID: -1964517619296735807}
   - {fileID: 1361165029786629563}
+  - {fileID: -5624068367804203620}
 --- !u!114 &1361165029786629563
 MonoBehaviour:
   m_ObjectHideFlags: 0
