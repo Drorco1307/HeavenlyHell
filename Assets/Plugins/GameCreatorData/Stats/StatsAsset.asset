@@ -1,5 +1,34 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-2260853214428460798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0c8dd195211246108375b2b5fb580d5, type: 3}
+  m_Name: ti3ijucc
+  m_EditorClassIdentifier: 
+  uniqueID: 3446c14215184762812a5c928ae84d12
+  stat:
+    uniqueName: Sweatness-Max
+    shortName: SWM
+    title:
+      content: 
+      postProcess: 0
+      translationID: 0
+    description:
+      content: 
+      postProcess: 0
+      translationID: 0
+    icon: {fileID: 0}
+    color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    baseValue: 10
+    formula: {fileID: 0}
+  isHidden: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15,6 +44,7 @@ MonoBehaviour:
   stats:
   - {fileID: 8343243504808405378}
   - {fileID: 9034179996447110364}
+  - {fileID: -2260853214428460798}
 --- !u!114 &8343243504808405378
 MonoBehaviour:
   m_ObjectHideFlags: 0
