@@ -19,7 +19,7 @@ public class EnemyAITeddy : MonoBehaviour
     [SerializeField] private float minDistToAttack;
     [SerializeField] private NavMeshAgent agent;
     [SerializeField] private Animator animator;
-    [SerializeField] private float dist;
+    public float dist;
     private void Awake()
     {
        

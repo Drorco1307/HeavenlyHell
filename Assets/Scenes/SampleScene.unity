@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -708,6 +708,7 @@ GameObject:
   - component: {fileID: 81595080}
   - component: {fileID: 81595083}
   - component: {fileID: 81595082}
+  - component: {fileID: 81595085}
   - component: {fileID: 81595084}
   m_Layer: 0
   m_Name: Player
@@ -1007,20 +1008,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   trigger: {fileID: 0}
   keyCode: 39
---- !u!136 &81595084
-CapsuleCollider:
+--- !u!114 &81595084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 81595070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 820c0862819a52246b4feb3f62392b26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distList: []
+  enemyAiTeddy: {fileID: 1335102278}
+--- !u!135 &81595085
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 81595070}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 0.84167886
-  m_Height: 2.8616657
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.2973151, z: 0.34167886}
+  serializedVersion: 2
+  m_Radius: 10
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &90129805
 GameObject:
   m_ObjectHideFlags: 0
@@ -11603,7 +11617,7 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: a32964c4429b22744bf808225ccfe1ae,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a32964c4429b22744bf808225ccfe1ae, type: 3}
@@ -16058,7 +16072,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!64 &1922063748
 MeshCollider:
@@ -16172,7 +16186,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!64 &1940225106
 MeshCollider:
